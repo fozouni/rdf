@@ -251,7 +251,7 @@ query_8 = """
 
 
 # TITLE
-st.header("Theme Park Ride Accidents")
+st.header("پروژه تحلیل تصادفات")
 st.markdown("""There are **thousands of amusement parks** around the world that welcome **millions of visitors** each year. 
     Children, families, and teenagers are ready to spend days of adrenaline and fun. 
     Unfortunately, **accidents sometimes occur**. This raises some questions: **Are amusement parks safe? Which rides are the most accident-prone? What accidents happen most often? At what time of year are accidents most common?** 
