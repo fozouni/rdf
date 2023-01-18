@@ -31,7 +31,7 @@ def sparql_results_to_df(results):
 def computeQuery(query, executor):
     result = executor.query(query)
     res_df = sparql_results_to_df(result)
-    return res_df
+    return res_df 
 
 # METHOD TO EXECUTE A PARAMETRIC QUERY
 def rideAccidentDescription(ride_name, executor):
