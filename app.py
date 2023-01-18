@@ -56,7 +56,7 @@ def rideAccidentDescription(ride_name, executor):
 # PROCESSING & DISPLAY
 def display():
     with st.container():
-        st.write("#### What are the months with the highest number of accidents?")
+        st.write("#### در چه ماهی بیشترین تصادفات رخ می‌دهد؟")
         res = computeQuery(query_5, graph)
         fig = px.bar(res, x="mon", y="count", color="count", labels={"mon":"Month", "count":"Num. of Accidents"}, text_auto="True")
         fig.update_xaxes(type="category")
